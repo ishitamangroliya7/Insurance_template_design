@@ -1,0 +1,855 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/f5a4e026df.js" crossorigin="anonymous"></script>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css">
+
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/media.css">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <button id="backToTopBtn"><i class="fa-solid fa-angle-up"></i></button>
+
+
+    <div class="section page-header">
+        <div class="container-fluid header-1 p-0">
+            <div class="row headerbg">
+                <div class="col-lg-11 col-10">
+                    <div class="row blackheader">
+                        <div class="col-2">
+                            col-1
+                        </div>
+                        <div class="col-8 content d-flex gap-5">
+                            <div class="d-flex align-items-center gap-2">
+                                <div><img src="assets/images/location.svg" alt=""></div>
+                                <div><small>30 Commercial Road Fratton, Australia</small></div>
+                            </div>
+                            <div class="d-flex align-items-center gap-2">
+                                <div><img src="assets/images/mail.svg" alt=""></div>
+                                <div><small>needhelp@company.com</small></div>
+                            </div>
+                        </div>
+                        <div class="col-2">
+                            <div class="d-flex align-items-center lh-lg justify-content-end me-3 gap-2">
+                                <div>
+                                    <a href=""><img src="assets/images/fb.svg" class="w-100" alt=""></a>
+                                </div>
+                                <div>
+                                    <a href=""><img src="assets/images/twit.svg" class="w-100" alt=""></a>
+                                </div>
+                                <div>
+                                    <a href=""> <img src="assets/images/pintrest.svg" class="w-100" alt=""></a>
+                                </div>
+                                <div>
+                                    <a href=""> <img src="assets/images/yt.svg" class="w-100" alt=""></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-1 col-2">
+                    <div class="buttonbox">
+                        <a href="" class="hbtn">Get a Quote</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container-fluid header-2 p-0">
+            <div class="row headerbg">
+                <div class="col-lg-10 col-sm-9 p-0">
+                    <div class="row blueheader">
+                        <header>
+                            <nav class="navbar navbar-expand-lg">
+                                <img src="assets/images/logobg.png" alt="" class="logobg">
+                                <div class="container pt-0 z-2">
+                                    <a class="navbar-brand" href="#"><img src="assets/images/logo.png.png" alt=""></a>
+                                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                                        aria-expanded="false" aria-label="Toggle navigation">
+                                        <span class="navbar-toggler-icon"></span>
+                                    </button>
+                                    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                                        <ul class="navbar-nav ms-5 me-auto mb-2 mb-lg-0">
+                                            <li class="nav-item">
+                                                <a class="nav-link" href="#home">Home</a>
+                                            </li>
+                                            <li class="nav-item">
+                                                <a class="nav-link" href="#about-us">About</a>
+                                            </li>
+                                            <li class="nav-item">
+                                                <a class="nav-link" href="#Services">Services</a>
+                                            </li>
+                                            <li class="nav-item">
+                                                <a class="nav-link " href="#testimonials">Testimonials</a>
+                                            </li>
+                                            <li class="nav-item">
+                                                <a class="nav-link " href="#Team">Team</a>
+                                            </li>
+                                            <li class="nav-item">
+                                                <a class="nav-link " href="#Blog">Blog</a>
+                                            </li>
+                                        </ul>
+                                        <div class="d-flex me-lg-3 justify-content-start gap-1">
+                                            <div>
+                                                <a href=""><img src="assets/images/search.svg" class="w-75" alt=""></a>
+                                            </div>
+                                            <div>
+                                                <a href=""> <img src="assets/images/cart.svg" class="w-75" alt=""></a>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </nav>
+                        </header>
+                    </div>
+                </div>
+                <div class="col-lg-2 col-sm-3 dnone">
+                    <div class="buttonbox d-flex align-items-center gap-3">
+                        <div class="iconbg"><a href=""><img src="assets/images/call.svg" alt=""></a></div>
+                        <div class="d-flex flex-column">
+                            <small>Emergency call</small>
+                            <a href="" class="text-dark" style="text-decoration: none;">
+                                <p class="m-0">+92 3800 8060</p>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <main>
+        <section class="banner position-relative pb-5" data-aos="fade-up">
+            <img src="assets/images/bannershape.png" class="shape1" alt="" data-aos="fade-right" data-aos-delay="300">
+            <div class="container">
+                <div class="row gy-4 align-items-center">
+                    <div class="col-sm-6 order-sm-0 order-1" data-aos="zoom-in" data-aos-delay="400">
+                        <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+                            <div class="carousel-inner banner-caro">
+                                <div class="carousel-item active">
+                                    <div class=" d-flex flex-column gap-lg-3 gap-2">
+                                        <h1 data-aos="fade-up" data-aos-delay="500">Life More Relaxed with Smart Insurance</h1>
+                                        <p style="font-size: 14px;" class="text-secondary" data-aos="fade-up" data-aos-delay="600">
+                                            There are many variations of passages of Lorem Ip available, but the majority have suffered aeration in some form,
+                                        </p>
+                                        <button class="bannerbtn" >Discover More</button>
+                                    </div>
+                                </div>
+                                <div class="carousel-item">
+                                    <div class=" d-flex flex-column gap-lg-3 gap-2">
+                                        <h1 data-aos="fade-up" data-aos-delay="500">Life2 More Relaxed with Smart Insurance</h1>
+                                        <p style="font-size: 14px;" class="text-secondary" data-aos="fade-up" data-aos-delay="600">
+                                            There are many variations of passages of Lorem Ip available, but the majority have suffered aeration in some form,
+                                        </p>
+                                        <button class="bannerbtn">Discover More</button>
+                                    </div>
+                                </div>
+                                <div class="carousel-item">
+                                    <div class=" d-flex flex-column gap-lg-3 gap-2">
+                                        <h1 data-aos="fade-up" data-aos-delay="500">Life3 More Relaxed with Smart Insurance</h1>
+                                        <p style="font-size: 14px;" class="text-secondary" data-aos="fade-up" data-aos-delay="600">
+                                            There are many variations of passages of Lorem Ip available, but the majority have suffered aeration in some form,
+                                        </p>
+                                        <button class="bannerbtn">Discover More</button>
+                                    </div>
+                                </div>
+                            </div>
+                            <button class="carousel-control-prev" type="button"
+                                data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Previous</span>
+                            </button>
+                            <button class="carousel-control-next" type="button"
+                                data-bs-target="#carouselExampleControls" data-bs-slide="next">
+                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                <span class="visually-hidden">Next</span>
+                            </button>
+                        </div>
+                    </div>
+                    <div class="col-sm-6 position-relative" data-aos="fade-left" data-aos-delay="500">
+                        <img src="assets/images/banner1.png" class="shape2" alt="">
+                        <img src="assets/images/bannerimg.png" class="w-100 bannerimg" alt="">
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+
+        <section class="swipe">
+            <div class="container">
+                <div class="swiper mySwiper">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide"><img src="assets/images/logo1.png" alt="Logo 1"></div>
+                        <div class="swiper-slide"><img src="assets/images/logo1.png" alt="Logo 2"></div>
+                        <div class="swiper-slide"><img src="assets/images/logo1.png" alt="Logo 3"></div>
+                        <div class="swiper-slide"><img src="assets/images/logo1.png" alt="Logo 4"></div>
+                        <div class="swiper-slide"><img src="assets/images/logo1.png" alt="Logo 5"></div>
+                        <div class="swiper-slide"><img src="assets/images/logo1.png" alt="Logo 6"></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="about" data-aos="fade-up">
+            <div class="container">
+                <div class="row g-2 justify-content-center align-items-center">
+                    <div class="col-sm-4 aboutboxwrapper" data-aos="fade-right" data-aos-delay="200">
+                        <div class="d-flex aboutbox flex-column gap-3">
+                            <div class="position-relative iconbox">
+                                <img src="assets/images/Icon.svg" class="icon" alt="">
+                            </div>
+                            <h6 class="m-0">Safe Your Money</h6>
+                            <p class="m-0 text-secondary">There are many variations free the off passages of Lorem Ipsum.</p>
+                        </div>
+                    </div>
+                    <div class="col-sm-4 aboutboxwrapper1" data-aos="fade-up" data-aos-delay="400">
+                        <div class="d-flex aboutbox flex-column gap-3">
+                            <div class="position-relative iconbox">
+                                <img src="assets/images/Icon2.svg" class="icon" alt="">
+                            </div>
+                            <h6 class="m-0">Safe Your Money</h6>
+                            <p class="m-0 text-secondary">There are many variations free the off passages of Lorem Ipsum.</p>
+                        </div>
+                    </div>
+                    <div class="col-sm-4 aboutboxwrapper2" data-aos="fade-left" data-aos-delay="600">
+                        <div class="d-flex aboutbox flex-column gap-3">
+                            <div class="position-relative iconbox">
+                                <img src="assets/images/Icon3.svg" class="icon" alt="">
+                            </div>
+                            <h6 class="m-0">Safe Your Money</h6>
+                            <p class="m-0 text-secondary">There are many variations free the off passages of Lorem Ipsum.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        
+            <div class="container about2">
+                <div class="row align-items-center">
+                    <div class="col-sm-6 order-sm-0 order-1" data-aos="zoom-in" data-aos-delay="300">
+                        <div class="pr">
+                            <img src="assets/images/about1.png" class="img1" alt="">
+                            <img src="assets/images/about2.png" class="img2" alt="">
+                            <img src="assets/images/about3.png" class="img3" alt="">
+                        </div>
+                    </div>
+                    <div class="col-sm-6 d-flex flex-column gap-lg-4 gap-3" data-aos="fade-left" data-aos-delay="500">
+                        <div class="d-flex align-items-center gap-1" data-aos="fade-up" data-aos-delay="400">
+                            <img src="assets/images/about.svg" alt="">
+                            <p class="m-0 text-secondary">About Us</p>
+                        </div>
+                        <h2 class="m-0" data-aos="fade-up" data-aos-delay="400">We're Providing Best Insurance Policy's</h2>
+                        <p class="m-0 text-secondary" data-aos="fade-up" data-aos-delay="400">
+                            There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration.
+                        </p>
+                        <div class="d-flex">
+                            <div class="d-flex pe-lg-4 pe-3 gap-2 flex-column" data-aos="fade-right" data-aos-delay="400">
+                                <div class="d-flex align-items-center gap-2">
+                                    <img src="assets/images/time.svg" alt="">
+                                    <h6 class="m-0">Fast & Easy Process</h6>
+                                </div>
+                                <div>
+                                    <p class="m-0 text-secondary">There are many variations of passages of Lorem.</p>
+                                </div>
+                            </div>
+        
+                            <div class="d-flex ps-lg-5 ps-3 gap-2 borderleft flex-column" data-aos="fade-left" data-aos-delay="400">
+                                <div class="d-flex align-items-center gap-2">
+                                    <img src="assets/images/policy.svg" alt="">
+                                    <h6 class="m-0">Control Over Policy</h6>
+                                </div>
+                                <div>
+                                    <p class="m-0 text-secondary">There are many variations of passages of Lorem.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="d-flex flex-column borderbox gap-lg-3 gap-2" data-aos="fade-up" data-aos-delay="400">
+                            <div class="d-flex align-items-center gap-2">
+                                <img src="assets/images/check.svg" alt="">
+                                <h6 class="m-0">Many variations of passages of Lorem Ipsum</h6>
+                            </div>
+                            <div class="d-flex align-items-center gap-2">
+                                <img src="assets/images/check.svg" alt="">
+                                <h6 class="m-0">Many variations of passages of Lorem Ipsum</h6>
+                            </div>
+                            <div class="d-flex align-items-center gap-2">
+                                <img src="assets/images/check.svg" alt="">
+                                <h6 class="m-0">Many variations of passages of Lorem Ipsum</h6>
+                            </div>
+                        </div>
+                        <button class="aboutbtn">Discover More</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+
+        <section class="services mt-5" data-aos="fade-up">
+            <div class="container">
+                <div class="row align-items-center mb-3">
+                    <div class="col-md-6 d-flex flex-column gap-2" data-aos="fade-right" data-aos-delay="200">
+                        <div class="d-flex align-items-center gap-1">
+                            <img src="assets/images/about.svg" alt="">
+                            <p class="m-0 text-secondary">Services</p>
+                        </div>
+                        <h2 class="m-0">We're Covering All the Insurance Services Files</h2>
+                    </div>
+                    <div class="col-md-6 justify-content-end d-flex gap-2" data-aos="fade-left" data-aos-delay="400">
+                        <button class="btn" id="prevBtn">
+                            <img src="assets/images/prev.svg" alt="">
+                        </button>
+                        <button class="btn" id="nextBtn">
+                            <img src="assets/images/next.svg" alt="">
+                        </button>
+                    </div>
+                </div>
+        
+                <div class="progress mb-3" data-aos="zoom-in" data-aos-delay="500">
+                    <div class="progress-bar" role="progressbar" id="progressBar"></div>
+                </div>
+        
+                <div class="swiper mySwiper2 pt-2 pb-0">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide" data-aos="fade-up" data-aos-delay="200">
+                            <div class="position-relative servicebox">
+                                <img src="assets/images/shape4.svg" class="shape4" alt="">
+                                <div class="serviceboxinner">
+                                    <div class="mb-3">
+                                        <img src="assets/images/service1.png" class="serviceimg" alt="">
+                                        <div class="d-flex align-items-center minusmargin">
+                                            <div class="serviceicon">
+                                                <img src="assets/images/si1.svg" alt="">
+                                            </div>
+                                            <div class="innerbox">
+                                                <h6 class="m-0">Car Insurance</h6>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <p class="m-0 text-secondary">There are many variations of Lorem Ipsum available.</p>
+                                </div>
+                            </div>
+                        </div>
+        
+                        <div class="swiper-slide" data-aos="fade-up" data-aos-delay="300">
+                            <div class="position-relative servicebox">
+                                <img src="assets/images/shape4.svg" class="shape4" alt="">
+                                <div class="serviceboxinner">
+                                    <div class="mb-3">
+                                        <img src="assets/images/service1.png" class="serviceimg" alt="">
+                                        <div class="d-flex align-items-center minusmargin">
+                                            <div class="serviceicon">
+                                                <img src="assets/images/si1.svg" alt="">
+                                            </div>
+                                            <div class="innerbox">
+                                                <h6 class="m-0">Car Insurance</h6>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <p class="m-0 text-secondary">There are many variations of Lorem Ipsum available.</p>
+                                </div>
+                            </div>
+                        </div>
+        
+                        <div class="swiper-slide" data-aos="fade-up" data-aos-delay="400">
+                            <div class="position-relative servicebox">
+                                <img src="assets/images/shape4.svg" class="shape4" alt="">
+                                <div class="serviceboxinner">
+                                    <div class="mb-3">
+                                        <img src="assets/images/service1.png" class="serviceimg" alt="">
+                                        <div class="d-flex align-items-center minusmargin">
+                                            <div class="serviceicon">
+                                                <img src="assets/images/si1.svg" alt="">
+                                            </div>
+                                            <div class="innerbox">
+                                                <h6 class="m-0">Car Insurance</h6>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <p class="m-0 text-secondary">There are many variations of Lorem Ipsum available.</p>
+                                </div>
+                            </div>
+                        </div>
+        
+                        <div class="swiper-slide" data-aos="fade-up" data-aos-delay="500">
+                            <div class="position-relative servicebox">
+                                <img src="assets/images/shape4.svg" class="shape4" alt="">
+                                <div class="serviceboxinner">
+                                    <div class="mb-3">
+                                        <img src="assets/images/service1.png" class="serviceimg" alt="">
+                                        <div class="d-flex align-items-center minusmargin">
+                                            <div class="serviceicon">
+                                                <img src="assets/images/si1.svg" alt="">
+                                            </div>
+                                            <div class="innerbox">
+                                                <h6 class="m-0">Car Insurance</h6>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <p class="m-0 text-secondary">There are many variations of Lorem Ipsum available.</p>
+                                </div>
+                            </div>
+                        </div>
+        
+                        <div class="swiper-slide" data-aos="fade-up" data-aos-delay="600">
+                            <div class="position-relative servicebox">
+                                <img src="assets/images/shape4.svg" class="shape4" alt="">
+                                <div class="serviceboxinner">
+                                    <div class="mb-3">
+                                        <img src="assets/images/service1.png" class="serviceimg" alt="">
+                                        <div class="d-flex align-items-center minusmargin">
+                                            <div class="serviceicon">
+                                                <img src="assets/images/si1.svg" alt="">
+                                            </div>
+                                            <div class="innerbox">
+                                                <h6 class="m-0">Car Insurance</h6>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <p class="m-0 text-secondary">There are many variations of Lorem Ipsum available.</p>
+                                </div>
+                            </div>
+                        </div>
+        
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <section style="margin-top: -90px;" data-aos="fade-up">
+            <div class="container newslatter" style="height: 170px; position: relative;">
+                <img src="assets/images/shape5.svg" class="shape5" alt="" data-aos="fade-right" data-aos-delay="300">
+                <img src="assets/images/shape6.svg" class="shape6" alt="" data-aos="fade-left" data-aos-delay="300">
+                <div class="row news">
+                    <div class="col-sm-4 col-1">
+                    </div>
+                    <div class="col-sm-5 col-6" data-aos="fade-up" data-aos-delay="400">
+                        <p class="mb-1 text-light">Be Happy to Get Insurance</p>
+                        <h5 class="m-0 text-light">Start Tracking Your Claims</h5>
+                    </div>
+                    <div class="col-sm-3 col-5" data-aos="zoom-in" data-aos-delay="500">
+                        <button class="newslatterbtn">Discover More</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <section class="testimonials my-5" data-aos="fade-up">
+            <div class="row align-items-center justify-content-center">
+                <div class="col-12">
+                    <div class="d-flex mb-1 justify-content-center align-items-center gap-1" data-aos="fade-up" data-aos-delay="200">
+                        <img src="assets/images/about.svg" alt="">
+                        <p class="m-0 text-center text-secondary">Testimonials</p>
+                    </div>
+                    <h2 class="mb-3 text-center" data-aos="fade-up" data-aos-delay="300">See What They Are Talking<br /> About?</h2>
+                </div>
+            </div>
+            <div class="container mt-5">
+                <div class="row">
+                    <div class="col-sm-6">
+                        <div class="review" data-aos="fade-right" data-aos-delay="400">
+                            <img src="assets/images/shape9.svg" class="shape9" alt="">
+                            <div class="d-flex gap-3 align-items-end mb-3">
+                                <div>
+                                    <img src="assets/images/author1.png" class="author" alt="">
+                                </div>
+                                <div class="d-flex flex-column">
+                                    <h6 class="m-0">Robert Smith</h6>
+                                    <small>Marketing Manager</small>
+                                </div>
+                            </div>
+                            <p class="text-secondary">There are many variations of passages of Lorem Ipsum available,
+                                but the majority have suffered alteration in some form, by injected
+                                humour, or randomised words which don't look even</p>
+                            <img src="assets/images/rate.svg" alt="">
+                        </div>
+                    </div>
+                    <div class="col-sm-6">
+                        <div class="review" data-aos="fade-left" data-aos-delay="500">
+                            <img src="assets/images/shape9.svg" class="shape9" alt="">
+                            <div class="d-flex gap-3 align-items-end mb-3">
+                                <div>
+                                    <img src="assets/images/author1.png" class="author" alt="">
+                                </div>
+                                <div class="d-flex flex-column">
+                                    <h6 class="m-0">Robert Smith</h6>
+                                    <small>Marketing Manager</small>
+                                </div>
+                            </div>
+                            <p class="text-secondary">There are many variations of passages of Lorem Ipsum available,
+                                but the majority have suffered alteration in some form, by injected
+                                humour, or randomised words which don't look even</p>
+                            <img src="assets/images/rate.svg" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+
+        <section class="estimate" data-aos="fade-up">
+            <img src="assets/images/shape10.png" class="shape10" alt="" data-aos="fade-right" data-aos-delay="200">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        <div class="d-flex mb-1 justify-content-center align-items-center gap-1" data-aos="fade-up" data-aos-delay="300">
+                            <img src="assets/images/about.svg" alt="">
+                            <p class="m-0 text-center text-secondary">Get a Free Estimate</p>
+                        </div>
+                        <h2 class="mb-3 text-center" data-aos="fade-up" data-aos-delay="400">See What They Are Talking<br /> About?</h2>
+                    </div>
+                    <div class="col-12">
+                        <div class="tabbox mt-4" data-aos="zoom-in" data-aos-delay="500">
+                            <ul class="nav nav-tabs" id="myTab" role="tablist">
+                                <li class="nav-item" role="presentation" data-aos="fade-right" data-aos-delay="600">
+                                    <button class="nav-link active" id="tab1-tab" data-bs-toggle="tab" data-bs-target="#tab1" type="button" role="tab" aria-controls="tab1" aria-selected="true">Car Insurance</button>
+                                </li>
+                                <li class="nav-item" role="presentation" data-aos="fade-right" data-aos-delay="700">
+                                    <button class="nav-link" id="tab2-tab" data-bs-toggle="tab" data-bs-target="#tab2" type="button" role="tab" aria-controls="tab2" aria-selected="false">Life Insurance</button>
+                                </li>
+                                <li class="nav-item" role="presentation" data-aos="fade-right" data-aos-delay="800">
+                                    <button class="nav-link" id="tab3-tab" data-bs-toggle="tab" data-bs-target="#tab3" type="button" role="tab" aria-controls="tab3" aria-selected="false">Home Insurance</button>
+                                </li>
+                                <li class="nav-item" role="presentation" data-aos="fade-right" data-aos-delay="900">
+                                    <button class="nav-link" id="tab4-tab" data-bs-toggle="tab" data-bs-target="#tab4" type="button" role="tab" aria-controls="tab4" aria-selected="false">Health</button>
+                                </li>
+                            </ul>
+        
+                            <div class="tab-content" id="myTabContent">
+                                <div class="tab-pane fade show active" id="tab1" role="tabpanel" aria-labelledby="tab1-tab">
+                                    <div class="d-sm-flex align-items-center gap-4">
+                                        <div data-aos="fade-right" data-aos-delay="1000">
+                                            <img src="assets/images/tabbg.png" class="tabbg w-100" alt="">
+                                        </div>
+                                        <div class="form-container" data-aos="fade-left" data-aos-delay="1100">
+                                            <form>
+                                                <div class="mb-3">
+                                                    <input type="text" class="form-control" placeholder="Full name" required>
+                                                </div>
+                                                <div class="mb-3">
+                                                    <input type="email" class="form-control" placeholder="Email address" required>
+                                                </div>
+                                                <div class="mb-3">
+                                                    <select class="form-select">
+                                                        <option selected>Subject Type of Insurance</option>
+                                                        <option value="1">Health Insurance</option>
+                                                        <option value="2">Life Insurance</option>
+                                                        <option value="3">Auto Insurance</option>
+                                                    </select>
+                                                </div>
+                                                <div class="mb-4">
+                                                    <div class="d-flex justify-content-between">
+                                                        <label class="form-label">Limits of Balance:</label>
+                                                        <span id="balanceValue"></span>
+                                                    </div>
+                                                    <div class="slider-container">
+                                                        <input type="range" class="form-range" min="1000" max="10000" value="4000" id="balanceRange">
+                                                    </div>
+                                                </div>
+                                                <button type="submit" class="btn bannerbtn">Get a Quote Now</button>
+                                            </form>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="tab-pane fade" id="tab2" role="tabpanel" aria-labelledby="tab2-tab">
+                                    <p>Content for Tab 2</p>
+                                </div>
+                                <div class="tab-pane fade" id="tab3" role="tabpanel" aria-labelledby="tab3-tab">
+                                    <p>Content for Tab 3</p>
+                                </div>
+                                <div class="tab-pane fade" id="tab4" role="tabpanel" aria-labelledby="tab4-tab">
+                                    <p>Content for Tab 4</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+
+        <section class="team" data-aos="fade-up">
+            <div class="container team-container">
+                <div class="row g-3 justify-content-center">
+                    <div class="col-12">
+                        <div class="d-flex mb-1 justify-content-center align-items-center gap-1" data-aos="fade-up" data-aos-delay="200">
+                            <img src="assets/images/about.svg" alt="">
+                            <p class="m-0 text-center text-secondary">Our Team Member</p>
+                        </div>
+                        <h2 class="mb-5 text-center" data-aos="fade-up" data-aos-delay="300">See What They Are Talking<br /> About?</h2>
+                    </div>
+        
+                    <div class="col-md-4" data-aos="zoom-in" data-aos-delay="400">
+                        <div class="team-card">
+                            <div class="share">
+                                <a href=""><img src="assets/images/share.svg" alt=""></a>
+                            </div>
+                            <img src="assets/images/team1.png" alt="Mike Hardson">
+                            <div class="team-content">
+                                <h5>Mike Hardson</h5>
+                                <p class="text-secondary">Designer</p>
+                            </div>
+                        </div>
+                    </div>
+        
+                    <div class="col-md-4" data-aos="zoom-in" data-aos-delay="500">
+                        <div class="team-card">
+                            <div class="share">
+                                <a href=""> <img src="assets/images/share.svg" alt=""></a>
+                            </div>
+                            <img src="assets/images/team2.png" alt="Jenny Wilson">
+                            <div class="team-content">
+                                <h5>Jenny Wilson</h5>
+                                <p class="text-secondary">Designer</p>
+                            </div>
+                        </div>
+                    </div>
+        
+                    <div class="col-md-4" data-aos="zoom-in" data-aos-delay="600">
+                        <div class="team-card">
+                            <div class="share">
+                                <a href=""> <img src="assets/images/share.svg" alt=""></a>
+                            </div>
+                            <img src="assets/images/team3.png" alt="Robert Fox">
+                            <div class="team-content">
+                                <h5>Robert Fox</h5>
+                                <p class="text-secondary">Designer</p>
+                            </div>
+                        </div>
+                    </div>
+        
+                </div>
+            </div>
+        </section>
+        
+
+        <div class="container-fluid teambg">
+            <img src="assets/images/teambg.png" class="w-100" alt="">
+        </div>
+
+        <section class="blog mt-5" data-aos="fade-up">
+            <div class="container mt-5 d-flex justify-content-center">
+                <div class="row g-4 justify-content-center">
+                    <div class="col-12">
+                        <div class="d-flex mb-1 justify-content-center align-items-center gap-1" data-aos="fade-up" data-aos-delay="200">
+                            <img src="assets/images/about.svg" alt="">
+                            <p class="m-0 text-center text-secondary">Article</p>
+                        </div>
+                        <h2 class="mb-3 text-center" data-aos="fade-up" data-aos-delay="300">See What They Are Talking<br /> About?</h2>
+                    </div>
+        
+                    <div class="col-lg-4 col-sm-6" data-aos="zoom-in" data-aos-delay="400">
+                        <div>
+                            <img src="assets/images/blog1.png" class="blogimg" alt="Family Image">
+                        </div>
+                        <div class="blog-content pt-2 d-flex flex-column">
+                            <div class="date-badge">
+                                <div class="position-relative h-100">
+                                    <div class="badge-content">
+                                        <h5 class="m-0">20</h5>
+                                        <p class="text-secondary">JAN</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="d-flex align-items-center p-8 gap-1">
+                                <img src="assets/images/msg.svg" alt="">
+                                <p class="m-0 text-secondary">2 comments</p>
+                            </div>
+                            <h5 class="p-8">5 Essential Tips for Managing Whelming</h5>
+                            <div class="d-flex justify-content-between p-8 align-items-center read">
+                                <p class="m-0"><a href="#" class="read-more">Read More</a></p>
+                                <hr>
+                                <a href=""><img src="assets/images/arrow.svg" alt=""></a>
+                            </div>
+                        </div>
+                    </div>
+        
+                    <div class="col-lg-4 col-sm-6" data-aos="zoom-in" data-aos-delay="500">
+                        <div>
+                            <img src="assets/images/blog2.png" class="blogimg" alt="Family Image">
+                        </div>
+                        <div class="blog-content pt-2 d-flex flex-column">
+                            <div class="date-badge">
+                                <div class="position-relative h-100">
+                                    <div class="badge-content">
+                                        <h5 class="m-0">20</h5>
+                                        <p class="text-secondary">JAN</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="d-flex align-items-center p-8 gap-1">
+                                <img src="assets/images/msg.svg" alt="">
+                                <p class="m-0 text-secondary">2 comments</p>
+                            </div>
+                            <h5 class="p-8">5 Essential Tips for Managing Whelming</h5>
+                            <div class="d-flex justify-content-between p-8 align-items-center read">
+                                <p class="m-0"><a href="#" class="read-more">Read More</a></p>
+                                <hr>
+                                <a href=""><img src="assets/images/arrow.svg" alt=""></a>
+                            </div>
+                        </div>
+                    </div>
+        
+                    <div class="col-lg-4 col-sm-6" data-aos="zoom-in" data-aos-delay="600">
+                        <div>
+                            <img src="assets/images/blog3.png" class="blogimg" alt="Family Image">
+                        </div>
+                        <div class="blog-content pt-2 d-flex flex-column">
+                            <div class="date-badge">
+                                <div class="position-relative h-100">
+                                    <div class="badge-content">
+                                        <h5 class="m-0">20</h5>
+                                        <p class="text-secondary">JAN</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="d-flex align-items-center p-8 gap-1">
+                                <img src="assets/images/msg.svg" alt="">
+                                <p class="m-0 text-secondary">2 comments</p>
+                            </div>
+                            <h5 class="p-8">5 Essential Tips for Managing Whelming</h5>
+                            <div class="d-flex justify-content-between p-8 align-items-center read">
+                                <p class="m-0"><a href="#" class="read-more">Read More</a></p>
+                                <hr>
+                                <a href=""><img src="assets/images/arrow.svg" alt=""></a>
+                            </div>
+                        </div>
+                    </div>
+        
+                </div>
+            </div>
+        </section>
+        
+
+        <section class="footer mt-5" data-aos="zoom-in">
+            <img src="assets/images/fl.svg" class="footerleft" alt="" data-aos="fade-right" data-aos-delay="300">
+            <img src="assets/images/fr.svg" class="footerright" alt="" data-aos="fade-left" data-aos-delay="300">
+            
+            <div class="container f-container">
+                <div class="row g-4">
+                    <div class="col-lg-3 col-sm-6" data-aos="zoom-in" data-aos-delay="200">
+                        <h5 class="text-light mb-3">About</h5>
+                        <p class="text-secondary mb-3">There are many variations of passages of Lorem Ipsum available,
+                            but the majority have.</p>
+                        <div class="d-flex position-relative mb-4">
+                            <input type="email" class="form-control email-input" placeholder="Email Address">
+                            <a href="">
+                                <div class="email-btn h-100"><img src="assets/images/arrow.svg" alt=""></div>
+                            </a>
+                        </div>
+                        <div class="mt-3">
+                            <div class="d-flex align-items-center justify-content-start gap-3">
+                                <div class="social-icon position-relative" data-aos="zoom-in" data-aos-delay="400">
+                                    <a href=""><img src="assets/images/fb.svg" class="fb" alt=""></a>
+                                </div>
+                                <div class="social-icon position-relative" data-aos="zoom-in" data-aos-delay="500">
+                                    <a href=""><img src="assets/images/twit.svg" alt=""></a>
+                                </div>
+                                <div class="social-icon position-relative" data-aos="zoom-in" data-aos-delay="600">
+                                    <a href=""><img src="assets/images/pintrest.svg" alt=""></a>
+                                </div>
+                                <div class="social-icon position-relative" data-aos="zoom-in" data-aos-delay="700">
+                                    <a href=""><img src="assets/images/yt.svg" alt=""></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+        
+                    <div class="col-lg-4 col-sm-6" data-aos="zoom-in" data-aos-delay="300">
+                        <div class="contactbox">
+                            <img src="assets/images/footerlog.png" class="flogo" alt="">
+                            <div class="buttonbox mb-lg-3 mb-2 d-flex justify-content-center align-items-center gap-3">
+                                <div class="iconbg bg-dark"><img src="assets/images/web.svg" alt=""></div>
+                                <div class="d-flex flex-column align-items-start">
+                                    <small class="text-secondary">Emergency call</small>
+                                    <p class="m-0 text-secondary">+92 3800 8060</p>
+                                </div>
+                            </div>
+                            <div class="buttonbox my-lg-2 my-1 d-flex justify-content-center align-items-center gap-3">
+                                <div class="iconbg bg-dark"><img src="assets/images/location.svg" alt=""></div>
+                                <div class="d-flex flex-column align-items-start">
+                                    <small class="text-secondary">Emergency call</small>
+                                    <p class="m-0 text-secondary">+92 3800 8060</p>
+                                </div>
+                            </div>
+                            <hr class="w-100">
+                            <div class="buttonbox d-flex justify-content-center align-items-center gap-3">
+                                <div class="iconbg iconbg2"><img src="assets/images/call.svg" alt=""></div>
+                                <div class="d-flex flex-column align-items-start">
+                                    <small class="text-secondary">Emergency call</small>
+                                    <p class="m-0 text-light">+92 3800 8060</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+        
+                    <div class="col-lg-2 col-sm-6" data-aos="zoom-in" data-aos-delay="400">
+                        <h5 class="text-light mb-3">Explore</h5>
+                        <ul class="list-unstyled">
+                            <li class="flink"><a href="#" class="text-secondary">About</a></li>
+                            <li class="flink"><a href="#" class="text-secondary">Insurance</a></li>
+                            <li class="flink"><a href="#" class="text-secondary">Latest Portfolio</a></li>
+                            <li class="flink"><a href="#" class="text-secondary">Our FAQs</a></li>
+                            <li class="flink"><a href="#" class="text-secondary">Get in Touch</a></li>
+                        </ul>
+                    </div>
+        
+                    <div class="col-lg-3 col-sm-6" data-aos="zoom-in" data-aos-delay="500">
+                        <h5 class="text-light mb-3">Gallery</h5>
+                        <div class="gallery mb-3 d-flex gap-3">
+                            <div class="w-50" data-aos="zoom-in" data-aos-delay="600">
+                                <img src="assets/images/blog1.png" alt="Gallery" class="w-100 h-100">
+                            </div>
+                            <div class="w-50" data-aos="zoom-in" data-aos-delay="700">
+                                <img src="assets/images/blog2.png" alt="Gallery" class="w-100 h-100">
+                            </div>
+                        </div>
+                        <div class="gallery d-flex gap-3">
+                            <div class="w-50" data-aos="zoom-in" data-aos-delay="800">
+                                <img src="assets/images/blog3.png" alt="Gallery" class="w-100 h-100">
+                            </div>
+                            <div class="w-50" data-aos="zoom-in" data-aos-delay="900">
+                                <img src="assets/images/service5.png" alt="Gallery" class="w-100 h-100">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        
+            <div class="back-to-top">
+                <i class="fas fa-arrow-up"></i>
+            </div>
+        
+            <div class="policy">
+                <p class="text-secondary m-0 text-center" style="font-size: 12px;">&copy; All Copyright 2024 by Insur.com</p>
+            </div>
+        </section>
+        
+        
+        
+
+    </main>
+
+
+
+
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="assets/js/script.js"></script>
+</body>
+
+</html>

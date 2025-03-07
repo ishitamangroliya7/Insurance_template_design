@@ -1,0 +1,377 @@
+@media (min-width: 1367px) {
+
+    .img2,
+    .img3 {
+        bottom: 0%;
+    }
+
+    .overlayimg {
+        right: -40%;
+    }
+}
+
+
+@media (max-width: 768px) {
+    .logobg {
+        width: 33%;
+        position: fixed;
+        top: -25px;
+    }
+
+    .header-1 {
+        display: none;
+    }
+
+    .navbar-nav {
+        margin-left: 0 !important;
+        margin-top: 15px;
+    }
+
+    h1 {
+        font-size: 23px;
+    }
+
+    .navbar-brand img {
+        width: 90%;
+    }
+
+    .carousel-control-prev,
+    .carousel-control-next {
+        width: 27px;
+        height: 27px;
+    }
+
+    .bannerbtn,
+    .aboutbtn,
+    .newslatterbtn,
+    .btn-primary {
+        padding: 8px 20px;
+        border-radius: 5px;
+        font-size: 12px;
+    }
+
+    h5 {
+        font-size: 18px;
+    }
+
+    .news p {
+        font-size: 12px;
+    }
+
+    .bannerimg {
+        margin-left: -45px;
+    }
+
+    .aboutbox {
+        padding: 20px;
+        border-radius: 10px;
+    }
+
+    .aboutboxwrapper:hover .aboutbox,
+    .aboutboxwrapper1:hover .aboutbox,
+    .aboutboxwrapper2:hover .aboutbox {
+        padding: 20px 22px;
+    }
+
+    .swiper {
+        padding-bottom: 165px;
+    }
+
+    h2 {
+        font-size: 22px;
+    }
+
+    h6 {
+        font-size: 14px;
+    }
+
+    p {
+        font-size: 13px;
+    }
+
+    .borderbox h6 {
+        font-size: 13px;
+    }
+
+    .img1 {
+        width: 85%;
+        right: 40px;
+    }
+
+    .img2 {
+        bottom: 65px;
+        right: 40px;
+        width: 60%;
+    }
+
+    .img3 {
+        bottom: 27%;
+        width: 30%;
+        left: 0;
+    }
+
+    #prevBtn img,
+    #nextBtn img {
+        width: 20%;
+    }
+
+    #prevBtn,
+    #nextBtn {
+        width: 30px;
+        height: 30px;
+    }
+
+    .servicebox {
+        padding: 15px;
+    }
+
+    .minusmargin {
+        margin-top: -7px;
+    }
+
+    .serviceicon img {
+        width: 100%;
+    }
+
+
+    .serviceboxinner {
+        position: relative;
+        z-index: 2;
+    }
+
+    .pr {
+        position: relative;
+        height: 445px;
+    }
+
+    .shape6 {
+        width: 30%;
+        position: absolute;
+        left: 12px;
+        top: -25px;
+    }
+
+    .shape7 {
+        position: relative;
+        width: 100%;
+    }
+
+    .shape9 {
+        width: 90%;
+    }
+
+    .shape8 {
+        left: 90%;
+    }
+
+    .teambg {
+        margin-top: -135px;
+    }
+
+    .form-control,
+    .form-select {
+        font-size: 12px;
+        padding: 8px 10px;
+    }
+
+    .form-label,
+    #balanceValue {
+        font-size: 12px;
+    }
+
+    .logobg {
+        display: none;
+    }
+
+    .navbar {
+        padding-left: 15px;
+    }
+
+    .navbar-brand img {
+        filter: brightness(9.5);
+    }
+
+    .overlaybox {
+        width: 60%;
+    }
+
+    .team-card {
+        box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    }
+
+    .team-card h5 {
+        margin-top: 0;
+        font-size: 16px;
+        font-weight: bold;
+    }
+
+    .date-badge {
+        top: -15%;
+        width: 65px;
+        height: 65px;
+    }
+
+    .blog-content h5 {
+        font-size: 16px;
+    }
+
+    .p-8 {
+        padding: 8px 20px;
+    }
+
+    .email-input {
+        padding: 15px 15px;
+    }
+
+    .footer h5 {
+        font-size: 18px;
+    }
+
+    .flink {
+        font-size: 15px;
+    }
+
+    .bg-dark {
+        height: 35px;
+        width: 35px;
+    }
+
+    .bg-dark img {
+        width: 45% !important;
+    }
+
+    .iconbg2 {
+        height: 30px;
+        width: 30px;
+    }
+
+    .iconbg img {
+        width: 65%;
+    }
+
+    .overlaybox .iconbox {
+        width: 50px;
+        height: 50px;
+    }
+
+    .form-container {
+        padding: 20px 0;
+    }
+
+    #backToTopBtn {
+        width: 40px;
+        height: 40px;
+        font-size: 16px;
+    }
+
+    .banner-caro {
+        padding-right: 60px;
+        margin-left: 50px;
+    }
+
+    .borderbox {
+        padding: 15px 15px;
+    }
+    .aboutbox h6 {
+        font-size: 16px;
+    }
+    .aboutbox p {
+        font-size: 12px;
+    }
+    .footerleft{
+        display: none;
+    }
+}
+
+
+
+
+@media (max-width: 425px) {
+    .logobg {
+        width: 50%;
+        top: -11px;
+    }
+
+    .dnone {
+        display: none;
+    }
+
+    .shape2 {
+        left: 45px;
+    }
+
+    .bannerimg {
+        margin-left: 0;
+    }
+
+    .shape1 {
+        top: 5%;
+    }
+
+    .aboutboxwrapper:hover .aboutbox,
+    .aboutboxwrapper1:hover .aboutbox,
+    .aboutboxwrapper2:hover .aboutbox {
+        transform: none;
+        transition: transform 0.3sease-in-out;
+        z-index: 8;
+        padding: 45px 40px;
+    }
+
+    .pr {
+        display: none;
+    }
+
+    .innerbox {
+        padding: 24px;
+    }
+
+    .overlaybox {
+        width: 70%;
+    }
+
+    .overlayimg {
+        right: -90%;
+        width: 75%;
+    }
+
+    .shape8 {
+        left: 112%;
+    }
+
+    .shape6 {
+        top: -55px;
+    }
+
+    .newslatter {
+        margin-left: 10px;
+    }
+
+    .review {
+        margin-bottom: 50px;
+    }
+
+    .nav-tabs .nav-link {
+        font-size: 12px;
+        padding: 6px;
+    }
+
+    .teambg {
+        display: none;
+    }
+
+    .contactbox {
+        margin-inline: unset;
+        margin-top: 20px;
+    }
+
+    .email-input {
+        padding: 12px 12px;
+    }
+
+    .flink {
+        font-size: 13px;
+    }
+    .estimate {
+        margin-top: 0;
+    }
+}
